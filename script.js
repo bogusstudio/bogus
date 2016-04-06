@@ -9,7 +9,7 @@ $.getJSON("data.json", function(data) {
 function getImage(images) {
     var randomIndex = Math.floor(Math.random() * images.length);
     src = images[randomIndex];
-    main.style.backgroundImage = "url('" + src + "')";
+    main.style.backgroundImage = "url('/images/" + src + "')";
     setTimeout(function() {
         main.classList.remove('opacZero')
     }, 500);
