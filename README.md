@@ -1,1 +1,1 @@
-# bogusstudio.github.io
+# bogusstudio.com
